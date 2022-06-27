@@ -773,7 +773,7 @@ func validateVolumeCapabilitiesArg(
 
 const (
 	//Increasing maxFieldString to support k8s 1.24 strings such as 'path' 'stagingTargetPath' 'targetpath' 'mountpath' etc.
-	maxFieldString = 192
+	maxFieldString = 1023
 	maxFieldMap    = 4096
 	maxFieldNodeID = 256
 	//MaxPathLimit parameter is used to limit the length of the path and is configurable.
